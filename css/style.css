@@ -1,0 +1,86 @@
+@charset 'utf-8';
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Teko', sans-serif;
+	background-color: rgba(121, 121, 121, 0.411);
+}
+
+#calculadora {
+	height: 600px;
+	width: 450px;
+	border-radius: 10px;
+	background-color: rgb(31, 31, 31);
+	flex-grow: 0;
+	flex-shrink: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.display {
+	height: 100px;
+	width: 90%;
+	padding: 5px;
+	margin: 30px auto 0px auto;
+	border-radius: 5px;
+	text-align: end;
+	background-color: rgba(0, 0, 0, 0.432);
+	color: white;
+	font-size: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: end;
+	overflow: hidden;
+}
+
+#semiDisplay {
+	height: 50px;
+	margin-bottom: -20px;
+	font-size: 25px;
+}
+
+#calculadora-buttom {
+	height: 460px;
+	width: 100%;
+	padding: 20px;
+	display: grid;
+	grid-template: repeat(5, 1fr) / repeat(4, 1fr);
+	gap: 10px;
+}
+
+#calculadora-buttom button {
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.753);
+	border: none;
+	font-size: 20px;
+	font-weight: bolder;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	/* Serve para não selecionar o texto do BTN */
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#calculadora-buttom button:hover {
+	cursor: pointer;
+	box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.438);
+}
+
+.buttomOperador {
+	font-size: 30px !important;
+}
