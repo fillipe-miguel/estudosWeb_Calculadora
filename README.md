@@ -1,6 +1,6 @@
 # Calculadora web
 
-<!-- ## 🎮 Hi, [try it yourserf](https://fillipe-miguel.github.io/web-jogoDaMemoria.github.io/) !! -->
+## 🧮 Hi, [try it yourserf](https://fillipe-miguel.github.io/web-calculadora/) !!
 
 <!-- <br> -->
 
